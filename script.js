@@ -6,6 +6,15 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+// Create a variable named team that references the original players array
+const team = players;
+
+// Create a variable named team1 that is a copy of the players array
+const team1 = [...players];
+
+// Create a variable named cap1 that is a copy of the person object
+const cap1 = {...person};
+
 
 window.players = players;
 window.person = person;
